@@ -1,0 +1,19 @@
+
+
+.WishlistItem{
+    width: 500px;
+    height: 120px;
+    padding: 20px 20px;
+    color: black;
+    /* background-color: #707070; */
+    /* border-top:2px solid black ; */
+    border-bottom:2px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.WishlistItem img{
+    width: 70px;
+    height: 100px;
+}

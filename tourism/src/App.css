@@ -1,0 +1,26 @@
+:root{
+  --color-black :#383838
+}
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: antiquewhite;
+  text-align: center;
+  font-family:sans-serif;
+}
+
+.heading{
+  margin-top: 25px;
+}
+.btn-style{
+  color: white;
+    background-color: var(--color-black);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

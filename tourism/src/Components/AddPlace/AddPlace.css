@@ -1,0 +1,35 @@
+
+.AddPlace{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0
+}
+.AddPlace h2{
+    color: white;
+}
+.AddPlace>img{
+    width: 25px;
+    filter: invert(100%);
+}
+
+.addPlace-form{
+    width: 500px;
+    padding: 20px ;
+    background-color:#b4b4b4 ;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    border: none;
+}
